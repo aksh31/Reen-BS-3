@@ -1,8 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 /* ======================== < subHeader CSS > ======================== */
+html{
+    font-size: 16px;
+}
 .subHeader {
     background-color: #f5f7fa;
     padding: 12px 0;
@@ -112,18 +116,54 @@
 }
 .carousel-caption h1{
     font-size: 78px;
-    font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
 }
 .carousel-caption p{
     font-size: 24px;
     color: #a3b1bf;
     margin-bottom: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .main_Slider .carousel-caption.fresh-Design{ 
-    right: 35%;
-    top: 50%;
-    transform: translate(35%, -50%);
+    right: 28%;
+    top: 40%;
+    transform: translate(30%, -40%);
     text-align: right;
+}
+.main_Slider .carousel-caption.clean-Code{
+    left: 28%;
+    top: 35%;
+    transform: translate(-30%, -35%);
+    text-align: left;
+}
+.carousel-caption.clean-Code span, .carousel-caption.creativity span{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-color: #506a85;
+    padding: 9px 25px;
+}
+.carousel-caption.clean-Code p{
+    color: #506a85;
+}
+
+.main_Slider .carousel-caption.creativity {
+    right: 28%;
+    top: 20%;
+    transform: translate(30%, -20%);
+    text-align: right;
+}
+.main_Slider .carousel-caption.showcase{
+    top: 15%;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    transform: translateY(-15%);
+}
+.main_Slider .carousel-caption.showcase h1{
+    font-size: 4.2rem;
+    margin-bottom: 20px;
+}
+
+.beautiful{
+    padding: 130px 0;
 }
