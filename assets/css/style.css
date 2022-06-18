@@ -163,7 +163,46 @@ html{
     font-size: 4.2rem;
     margin-bottom: 20px;
 }
+/* ======================== < Beautiful Section CSS > ======================== */
 
 .beautiful{
+    padding: 130px 0 0;
+}
+.myThumbnail i{
+    font-size: 60px;
+    color: #00bc9c;
+}
+.thumb-info h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #506a85;
+    margin: 0 0 35px;
+}
+.thumb-info p{
+    font-size: 16px;
+    color: #73879c;
+    margin-bottom: 130px;
+}
+/* ======================== < LatestWorks Section CSS > ======================== */
+
+.latestWorks{
     padding: 130px 0;
+    background-color: #f2f5f7;
+}
+.image img{
+    width: 100%;
+}
+.caption{
+    padding: 35px 0;
+    background-color: #fff;
+}
+.caption h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #506a85;
+    margin-bottom: 15px;
+}
+.caption p{
+    font-size: 14px;
+    color: #73879c;
 }

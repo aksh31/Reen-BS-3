@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
 /* ======================== < Helper CSS > ======================== */
 ul {
     list-style: none;
@@ -46,4 +51,19 @@ a:visited {
 .carousel-indicators .active {
     border: 1px solid #00bc9c;
     background-color: #00bc9c;
+}
+
+.heading-pri{
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 30px;
+}
+.para{
+    font-size: 22px;
+    color: #73879c;
+    margin-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mb-80{
+    margin-bottom: 80px;
 }
