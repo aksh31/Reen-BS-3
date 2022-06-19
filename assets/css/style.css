@@ -206,3 +206,16 @@ html{
     font-size: 14px;
     color: #73879c;
 }
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 45px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #506a85;
+    width: 12px;
+    height: 12px;
+}
